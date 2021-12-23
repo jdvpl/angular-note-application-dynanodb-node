@@ -36,7 +36,9 @@ export class NoteComponent implements OnInit {
             'content': [this.note.content ? this.note.content : '', Validators.required],
             'cat': [this.note.cat ? this.note.cat : 'general'],
             'timestamp': [this.note.timestamp],
-            'note_id': [this.note.note_id]
+            'note_id': [this.note.note_id],
+            'user_name': [this.note.user_name]
+
         });
         this.isLoading = false;
     }

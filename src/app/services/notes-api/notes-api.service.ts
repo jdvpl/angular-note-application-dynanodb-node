@@ -37,7 +37,9 @@ export class NotesApiService {
             content: item.content,
             cat: item.cat,
             timestamp: parseInt(item.timestamp),
-            note_id: item.note_id
+            note_id: item.note_id,
+            user_name: item.user_name,
+
         };
 
         if (item.title != "") {
