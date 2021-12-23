@@ -1,1 +1,1 @@
-# angular-note-application-dynanodb-node
+- Before running this project, kindly run "npm install" to install project dependencies
